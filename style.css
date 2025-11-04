@@ -1,0 +1,101 @@
+/* navbar */
+nav {
+    padding: 15px;
+}
+
+.row-custom {
+    
+    background: linear-gradient(to bottom, #1D95B9, #0D557E, #0A4568, #063C5E);
+}
+
+.logo {
+    height: 60px;
+    width: 130px;
+}
+
+ul {
+   
+}
+
+li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* header */
+
+header {
+    text-align: center;
+    background: linear-gradient(to top, #1D95B9, #0D557E, #0A4568, #063C5E);
+    color: white;
+    padding-bottom: 10px;
+}
+
+/* Main */
+.c-custom {
+    background-image: url(./WallpaperTGA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+}
+
+.row-custom2 {
+    /* height: 80vh; */
+}
+
+.card {
+    border: 3px solid black;
+    padding: 30px;
+    background: transparent;
+    color: white;
+
+}
+
+.CO33 {
+    height: 200px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.DS2 {
+    height: 200px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.H2 {
+    height: 200px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width: 770px) {
+    .CO33 , .DS2 , .H2 {
+        width: 50%;
+        height: 200px;
+    }
+}
