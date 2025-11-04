@@ -91,6 +91,26 @@ h4 {
 
 
 
+
+/* footer */
+
+footer {
+    height: 50vh;
+    background: linear-gradient(to bottom, #1D95B9, #0D557E, #0A4568,
+     #063C5E, #0A4568, #0D557E, #1D95B9);
+}
+
+.logo-footer {
+    height: 100px;
+}
+
+.col-custom {
+    height: 100px;
+}
+
+
+
+
 /* media queries */
 
 @media screen and (max-width: 770px) {
